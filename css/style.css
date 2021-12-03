@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 50px 250px 50px 200px 50px; 
+    grid-template-areas: 
+        "n1 h1 n2"
+        "a1 a1 a1"
+        "h2 h2 h2"
+        "h3 .  h4"
+        "f1 f1 f2"
+    ;
+    height: 100vh;
+}
+
+#header_surstromming {
+    grid-area: h1;
+} 
+
