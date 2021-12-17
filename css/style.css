@@ -5,6 +5,8 @@
     background-color: lightgray;
 }
 
+/* --- SIDA 1 --- */
+
 #wrapper {
     display: grid;
     grid-template-columns: 615px 500px 615px;
@@ -23,55 +25,129 @@
 
 #header_surstromming {
     grid-area: h1;
-    background-color: rgb(rgb(236, 68, 39), green, blue);
+    background-color: rgb(255, 166, 0);
 } 
 
 #nav_s1_hitta_oss {
     grid-area: n1;
-    background-color: red;
+    background-color: rgb(255, 166, 0);
 }
 
 #nav_s1_om_oss  {
     grid-area: n2;
-    background-color: yellow;
+    background-color: rgb(255, 166, 0);
 }
 
 #article_forsta_sidan {
     grid-area: a1;
-    background-color: green;
+    background-color: whitesmoke;
 }
 
 #header_meny {
     grid-area: h2;
-    background-color: orange;
+    background-color: rgb(255, 166, 0);
 }
 
 #article_lunch_rubrik {
     grid-area: h3;
-    background-color: blue;
+    background-color: whitesmoke;
 }
 
 #article_middag_rubrik {
     grid-area: h4;
-    background-color: indigo;
+    background-color: whitesmoke;
 }
 
 #article_lunch {
     grid-area: a2;
-    background-color: violet;
+    background-color: whitesmoke;
 } 
 
 #article_middag {
     grid-area: a3;
-    background-color: tomato;
+    background-color: whitesmoke;
 }
 
 #footer_kontakt {
     grid-area: f1;
-    background-color: wheat;
+    background-color: rgb(255, 166, 0);
 }
 
 #footer_dryck {
     grid-area: f2;
-    background-color: yellowgreen;
+    background-color: rgb(255, 166, 0);
+}
+
+/* --- SIDA 2 --- */
+
+#wrapper_2 {
+    display: grid;
+    grid-template-columns: 1200px 530px;
+    grid-template-rows: 150px 675px;
+    grid-template-areas: 
+        "head3 navi3"
+        "arti3 ar32"
+    ;
+    height: 100vh;
+    width: 100vw;
+}
+
+#header_s3_hitta_oss {
+    grid-area: head3;
+    background-color: rgb(255, 166, 0);
+}
+
+#tillbaka_s3 {
+    grid-area: navi3;
+    background-color: rgb(255, 166, 0);
+}
+
+#article_har_ar_vi {
+    grid-area: arti3;
+    background-color: whitesmoke;
+}
+
+#article_google_maps {
+    grid-area: ar32;
+    background-color: whitesmoke;
+}
+
+/* --- SIDA 3 --- */
+
+#wrapper_3 {
+    display: grid;
+    grid-template-columns: 1200px 530px ;
+    grid-template-rows: 150px 175px 500px;
+    grid-template-areas: 
+        "hea4 nav4"
+        "art4 ar42"
+        "ar43 ar42"
+    ;
+    height: 100vh;
+    width: 100vw;
+}
+
+#header_s4_om_oss {
+    grid-area: hea4;
+    background-color: rgb(255, 166, 0);
+}
+
+#tillbaka_s4 {
+    grid-area: nav4;
+    background-color: rgb(255, 166, 0);
+}
+
+#article_historia_rubrik {
+    grid-area: art4;
+    background-color: whitesmoke;
+}
+
+#article_historia {
+    grid-area: ar43;
+    background-color: whitesmoke;
+}
+
+#article_gubbe {
+    grid-area: ar42;
+    background-color: whitesmoke;
 }
