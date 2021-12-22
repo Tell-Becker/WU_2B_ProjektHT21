@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: sans-serif;
     box-sizing: border-box;
     padding: 0;
 }
@@ -39,7 +40,9 @@
 
 #article_forsta_sidan {
     grid-area: a1;
-    background-color: whitesmoke;
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)),url('/img/surstromming_background_photo.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 #header_meny {
