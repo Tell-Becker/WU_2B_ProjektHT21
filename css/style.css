@@ -2,7 +2,6 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    background-color: lightgray;
 }
 
 /* --- SIDA 1 --- */
@@ -10,7 +9,7 @@
 #wrapper {
     display: grid;
     grid-template-columns: 615px 500px 615px;
-    grid-template-rows: 150px 675px 150px 150px 425px 100px; 
+    grid-template-rows: 100px 725px 100px 150px 475px 100px; 
     grid-template-areas: 
         "n1 h1 n2"
         "a1 a1 a1"
