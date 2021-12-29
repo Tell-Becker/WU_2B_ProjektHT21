@@ -150,83 +150,154 @@
 #footer_kontakt {
     grid-area: f1;
     background-color: rgb(255, 166, 0);
+    padding: 10px;
+    font-weight: bold;
+}
+
+#kontakt_styling {
+    list-style-type: none;
+    font-weight: 500;
 }
 
 #footer_dryck {
     grid-area: f2;
     background-color: rgb(255, 166, 0);
+    padding: 10px;
+    font-weight: bold;
+}
+
+#dryck_styling {
+    list-style-type: none;
+    font-weight: 500;
 }
 
 /* --- SIDA 2 --- */
 
 #wrapper_2 {
     display: grid;
-    grid-template-columns: 1200px 530px;
-    grid-template-rows: 150px 675px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 725px;
     grid-template-areas: 
-        "head3 navi3"
-        "arti3 ar32"
+        "arti0 head3 navi3"
+        "arti3 ar32 ar32"
     ;
     height: 100vh;
     width: 100vw;
 }
 
+#ingenting {
+    background-color: rgb(255, 166, 0);
+}
+
 #header_s3_hitta_oss {
     grid-area: head3;
     background-color: rgb(255, 166, 0);
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
 
 #tillbaka_s3 {
     grid-area: navi3;
     background-color: rgb(255, 166, 0);
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#tillbaka_s3_link:hover {
+    color: black;
+}
+
+#tillbaka_s3_link:active {
+    color: rgb(150, 30, 0);
 }
 
 #article_har_ar_vi {
     grid-area: arti3;
     background-color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(251, 209, 130);
+    padding: 10px;
 }
 
 #article_google_maps {
     grid-area: ar32;
     background-color: whitesmoke;
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('/img/google_maps_surströmming.JPG');
+    background-position: center;
+}
+
+#här_är_vi_info {
+    font-size: 15px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 500;
 }
 
 /* --- SIDA 3 --- */
 
 #wrapper_3 {
     display: grid;
-    grid-template-columns: 1200px 530px ;
-    grid-template-rows: 150px 175px 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 725px;
     grid-template-areas: 
-        "hea4 nav4"
-        "art4 ar42"
-        "ar43 ar42"
+        "nav4 hea4 hea02"
+        "ar42 ar42 art4"
     ;
     height: 100vh;
     width: 100vw;
 }
 
+#ingenting_2 {
+    grid-area: hea02;
+    background-color: rgb(255, 166, 0);
+}
+
 #header_s4_om_oss {
     grid-area: hea4;
     background-color: rgb(255, 166, 0);
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
 
 #tillbaka_s4 {
     grid-area: nav4;
     background-color: rgb(255, 166, 0);
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
 
 #article_historia_rubrik {
     grid-area: art4;
-    background-color: whitesmoke;
+    background-color: rgb(251, 209, 130);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
 }
 
-#article_historia {
-    grid-area: ar43;
-    background-color: whitesmoke;
+#om_oss_info {
+    font-size: 15px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 500;
 }
 
-#article_gubbe {
+#article_om_oss_bild {
     grid-area: ar42;
     background-color: whitesmoke;
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)),url('/img/surströmming_historia.jpg');
 }
