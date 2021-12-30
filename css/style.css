@@ -11,8 +11,8 @@
 
 #wrapper {
     display: grid;
-    grid-template-columns: 615px 500px 615px;
-    grid-template-rows: 100px 725px 100px 100px 525px 100px; 
+    grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr);
+    grid-template-rows: 100px 655px 100px 75px 480px 100px; 
     grid-template-areas: 
         "n1 h1 n2"
         "a1 a1 a1"
@@ -90,7 +90,7 @@
     grid-area: h3;
     background-color: rgb(251, 209, 130);
     text-align: center;
-    padding: 50px;
+    padding: 25px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -99,7 +99,7 @@
     grid-area: h4;
     background-color: rgb(251, 209, 130);
     text-align: center;
-    padding: 50px;
+    padding: 25px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -116,10 +116,13 @@
 
 #lunch_list {
     line-height: 30px;
+    list-style-type: none;
+    padding: 10px;
 }
 
 #lunch_list_1 {
     line-height: 30px;
+    list-style-type: none;
 }
 
 #article_middag {
@@ -134,10 +137,13 @@
 
 #middag_list {
     line-height: 30px;
+    list-style-type: none;
+    padding: 10px;
 }
 
 #middag_list_1 {
     line-height: 30px;
+    list-style-type: none;
 }
 
 #article_background {
@@ -175,8 +181,8 @@
 
 #wrapper_2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 725px;
+    grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr);
+    grid-template-rows: 1fr 6.5fr;
     grid-template-areas: 
         "arti0 head3 navi3"
         "arti3 ar32 ar32"
@@ -234,7 +240,12 @@
     background-position: center;
 }
 
-#här_är_vi_info {
+#article_har_ar_vi {
+    line-height: 30px;
+
+}
+
+#har_ar_vi_info {
     font-size: 15px;
     padding: 10px;
     list-style-type: none;
@@ -245,8 +256,8 @@
 
 #wrapper_3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 725px;
+    grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr) minmax(400px, 1fr);
+    grid-template-rows: 1fr 6.5fr;
     grid-template-areas: 
         "nav4 hea4 hea02"
         "ar42 ar42 art4"
@@ -280,6 +291,14 @@
     text-align: center;
 }
 
+#tillbaka_s4_link:hover {
+    color: black;
+}
+
+#tillbaka_s4_link:active {
+    color: rgb(150, 30, 0);
+}
+
 #article_historia_rubrik {
     grid-area: art4;
     background-color: rgb(251, 209, 130);
@@ -294,6 +313,7 @@
     padding: 10px;
     list-style-type: none;
     font-weight: 500;
+    line-height: 30px;
 }
 
 #article_om_oss_bild {
