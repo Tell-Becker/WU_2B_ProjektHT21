@@ -28,17 +28,17 @@
 #header_surstromming {
     grid-area: h1;
     background-color: rgb(255, 166, 0);
-    background-image: url('/img/spansk_surströmming_logo_final.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-image: url('/img/spansk_surströmming_logo_final.png');
 } 
 
 #nav_s1_hitta_oss {
     grid-area: n1;
     background-color: rgb(255, 166, 0);
     text-align: center;
-    padding: 30px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -56,8 +56,8 @@
     grid-area: n2;
     background-color: rgb(255, 166, 0);
     text-align: center;
-    padding: 30px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
     text-decoration: none;
 }
@@ -72,17 +72,17 @@
 
 #article_forsta_sidan {
     grid-area: a1;
-    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)),url('/img/surstromming_background_photo.jpg');
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('/img/surstromming_background_photo.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 #header_meny {
     grid-area: h2;
     background-color: rgb(255, 166, 0);
     text-align: center;
-    padding: 22px;
-    font-size: 50px;
+    padding: 1.375rem;
+    font-size: 3.125rem;
     font-weight: bold;
 }
 
@@ -90,8 +90,8 @@
     grid-area: h3;
     background-color: rgb(251, 209, 130);
     text-align: center;
-    padding: 25px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 
@@ -99,8 +99,8 @@
     grid-area: h4;
     background-color: rgb(251, 209, 130);
     text-align: center;
-    padding: 25px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 
@@ -108,42 +108,81 @@
     grid-area: a2;
     background-color: rgb(251, 209, 130);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    padding: 10px;
-    line-height: 90px;
+    padding: 0.625rem;
 } 
 
 #lunch_list {
     line-height: 30px;
     list-style-type: none;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #lunch_list_1 {
-    line-height: 30px;
     list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#lunch_list_2 {
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#lunch_list_3 {
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#lunch_list_4 {
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#lunch_list_5 {
+    list-style-type: none;
+    margin-bottom: 14px;
 }
 
 #article_middag {
     grid-area: a3;
     background-color: rgb(251, 209, 130);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    padding: 10px;
+    padding: 0.625rem;
     line-height: 90px;
 }
 
 #middag_list {
     line-height: 30px;
     list-style-type: none;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #middag_list_1 {
-    line-height: 30px;
     list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#middag_list_2 {
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#middag_list_3 {
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#middag_list_4 {
+    list-style-type: none;
+    margin-bottom: 14px;
+}
+
+#middag_list_5 {
+    list-style-type: none;
+    margin-bottom: 14px;
 }
 
 #article_background {
@@ -156,7 +195,7 @@
 #footer_kontakt {
     grid-area: f1;
     background-color: rgb(255, 166, 0);
-    padding: 10px;
+    padding: 0.625rem;
     font-weight: bold;
 }
 
@@ -168,7 +207,7 @@
 #footer_dryck {
     grid-area: f2;
     background-color: rgb(255, 166, 0);
-    padding: 10px;
+    padding: 0.625rem;
     font-weight: bold;
 }
 
@@ -198,8 +237,8 @@
 #header_s3_hitta_oss {
     grid-area: head3;
     background-color: rgb(255, 166, 0);
-    padding: 30px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -208,8 +247,8 @@
 #tillbaka_s3 {
     grid-area: navi3;
     background-color: rgb(255, 166, 0);
-    padding: 30px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -226,11 +265,11 @@
 #article_har_ar_vi {
     grid-area: arti3;
     background-color: whitesmoke;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
     background-color: rgb(251, 209, 130);
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #article_google_maps {
@@ -242,12 +281,11 @@
 
 #article_har_ar_vi {
     line-height: 30px;
-
 }
 
 #har_ar_vi_info {
-    font-size: 15px;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 0.625rem;
     list-style-type: none;
     font-weight: 500;
 }
@@ -274,8 +312,8 @@
 #header_s4_om_oss {
     grid-area: hea4;
     background-color: rgb(255, 166, 0);
-    padding: 30px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -284,8 +322,8 @@
 #tillbaka_s4 {
     grid-area: nav4;
     background-color: rgb(255, 166, 0);
-    padding: 30px;
-    font-size: 30px;
+    padding: 1.875rem;
+    font-size: 1.875rem;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -302,18 +340,18 @@
 #article_historia_rubrik {
     grid-area: art4;
     background-color: rgb(251, 209, 130);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 #om_oss_info {
-    font-size: 15px;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 0.625rem;
     list-style-type: none;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 1.875rem;
 }
 
 #article_om_oss_bild {
