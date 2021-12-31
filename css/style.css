@@ -30,7 +30,7 @@
     background-color: rgb(255, 166, 0);
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/img/spansk_surströmming_logo_final.png');
+    background-image: url('../img/spansk_surströmming_logo_final.png');
 } 
 
 #nav_s1_hitta_oss {
@@ -72,7 +72,7 @@
 
 #article_forsta_sidan {
     grid-area: a1;
-    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('/img/surstromming_background_photo.jpg');
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('../img/surstromming_background_photo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -187,16 +187,19 @@
 
 #article_background {
     grid-area: a4;
-    background-color: whitesmoke;
     background-position: 64% 50%;
-    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('/img/blue_surströmming_photo.jpg');
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('../img/blue_surströmming_photo.jpg');
 }
 
 #footer_kontakt {
+    display: flex;
     grid-area: f1;
     background-color: rgb(255, 166, 0);
-    padding: 0.625rem;
     font-weight: bold;
+    background-size: 200px;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 #kontakt_styling {
@@ -264,27 +267,22 @@
 
 #article_har_ar_vi {
     grid-area: arti3;
-    background-color: whitesmoke;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     background-color: rgb(251, 209, 130);
     padding: 0.625rem;
+    line-height: 30px;
 }
 
 #article_google_maps {
     grid-area: ar32;
-    background-color: whitesmoke;
-    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('/img/google_maps_surströmming.JPG');
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)), url('../img/google_maps_surströmming.JPG');
     background-position: center;
 }
 
-#article_har_ar_vi {
-    line-height: 30px;
-}
-
 #har_ar_vi_info {
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 0.625rem;
     list-style-type: none;
     font-weight: 500;
@@ -340,14 +338,14 @@
 #article_historia_rubrik {
     grid-area: art4;
     background-color: rgb(251, 209, 130);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     padding: 0.625rem;
 }
 
 #om_oss_info {
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 0.625rem;
     list-style-type: none;
     font-weight: 500;
@@ -356,6 +354,5 @@
 
 #article_om_oss_bild {
     grid-area: ar42;
-    background-color: whitesmoke;
-    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)),url('/img/surströmming_historia.jpg');
+    background-image: linear-gradient(rgb(200, 30, 0, 0.25),rgba(200, 30, 0, 0.25)),url('../img/surströmming_historia.jpg');
 }
